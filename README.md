@@ -1,3 +1,6 @@
 # ohye3166.github.io
-my blog new_test
+my blog 
+
+czy
+
 http://ohye3166.github.io/
