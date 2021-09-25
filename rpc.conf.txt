@@ -1,0 +1,11 @@
+[DEFAULT]
+rabbit_password = 1#L39uxpAnYA63q43t4FyLfY16FBs70Z/RKWS4ISBFqDPRF0rJlyXcNuEUyrt9/wO/
+rpc_backend = rabbit
+rabbit_userid = rabbit
+rabbit_host = 172.28.9.153
+rabbit_port = 5672
+rabbit_use_ssl = true
+rpc_response_timeout = 150
+
+python rpc-server.py --config-file=rpc.conf
+python rpc-client.py --config-file=rpc.conf
